@@ -371,7 +371,7 @@
 		veinsPerChunk = 1
 		chunkGenChance = 0.16666666666666666
 	}
-	veinSize = 140 --was 216
+	veinSize = 70 --was 216
 }
 {
 	type = "Uranium"
@@ -725,7 +725,7 @@
 	}
 	veinFrequency = {
 		veinsPerChunk = 1 --was 12
-		chunkGenChance = 0.6--0.75 --was 1
+		chunkGenChance = 0.3--0.75 --was 1
 	}
 	veinSize = 60 --was 72
 }
