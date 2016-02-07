@@ -1,24 +1,11 @@
-val ore = <ore:logWood>;
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree:*>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:*>);
+furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:*>);
 
-furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree:1>);
-furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:0>);
-furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:1>);
-furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:2>);
-furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:3>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:0>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:1>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:2>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Dark Tree:*>, <minecraft:coal:1>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Rare Tree:*>, <minecraft:coal:1>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <TwilightForest:tile.TFMagicLog:*>, <minecraft:coal:1>);
 
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <Natura:Dark Tree>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <Natura:Dark Tree:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:0>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:2>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:3>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <Natura:Rare Tree:0>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <Natura:Rare Tree:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <minecraft:coal:1>, <Natura:Rare Tree:2>);
 
 recipes.remove(<Mystcraft:folder>);
 
