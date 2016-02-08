@@ -157,9 +157,6 @@ recipes.addShaped(<Railcraft:part.gear:2>, [[null, <ore:ingotSteel>, null], [<or
 recipes.remove(<TwilightForest:item.emptyMagicMap>);
 recipes.addShaped(<TwilightForest:item.emptyMagicMap>, [[<minecraft:paper>, <TwilightForest:item.fieryBlood>, <minecraft:paper>], [<minecraft:paper>, <TwilightForest:item.tfFeather>, <minecraft:paper>], [<minecraft:paper>, <ChromatiCraft:chromaticraft_item_elemental:0>, <minecraft:paper>]]);
 
-recipes.remove(<ThermalExpansion:Device:2>);
-recipes.addShaped(<ThermalExpansion:Device:2>, [[<ChromatiCraft:chromaticraft_item_crafting:2>, <minecraft:chest>, <Thaumcraft:ItemGolemCore:8>], [<ore:gearDiamond>, <minecraft:piston>, <ore:gearDiamond>], [<RotaryCraft:rotarycraft_item_compacts:10>, <ThermalExpansion:material:1>, <BuildCraft|Silicon:redstoneChipset:2>]]);
-
 recipes.remove(<Mystcraft:writingdesk>);
 recipes.addShaped(<Mystcraft:writingdesk>, [[<minecraft:glass_bottle>, <ForbiddenMagic:Crystalwell>, <minecraft:feather>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
 recipes.remove(<Mystcraft:BlockBookBinder>);
