@@ -21,10 +21,6 @@ recipes.remove(<Botania:superLavaPendant>);
 // Pendants
 recipes.remove(<Botania:bloodPendant>);
 
-// Sprinkler
-recipes.remove(<OpenBlocks:sprinkler>);
-recipes.remove(<AgriCraft:sprinkler>);
-
 // AgriCraft
 // recipes.remove(<IC2:blockCrop>);
 
