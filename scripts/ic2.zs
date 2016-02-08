@@ -2,6 +2,9 @@
 val log = <ore:logWood>;
 log.add(<IC2:blockRubWood>);
 
+// I'm guessing lets you turn a drained advanced battery (the lead acid kind) into the base meta because IC2 is stupid and cannot handle anything recipe-related in a sensible manner?
+recipes.addShapeless(<IC2:itemAdvBat:0>, [<IC2:itemAdvBat:26>]);
+
 recipes.addShaped(<IC2:itemCellEmpty>*16, [[null, <ore:ingotTin>, null], [<ore:ingotTin>, <RotaryCraft:rotarycraft_item_machine:17>, <ore:ingotTin>], [null, <ore:ingotTin>, null]]);
 
 recipes.remove(<IC2:itemToolForgeHammer>);
@@ -11,11 +14,6 @@ recipes.addShaped(<IC2:itemToolCutter>, [[<ore:cobblestone>, null, <ore:cobblest
 
 recipes.remove(<IC2:blockGenerator>);
 recipes.addShaped(<IC2:blockGenerator>, [[null, <IC2:itemBatREDischarged>, null], [<IC2:itemPlates:4>, <ThermalFoundation:material:71>, <IC2:itemPlates:4>], [null, <IC2:blockMachine:1>, null]]);
-
-
-//Does not work
-//mods.thermalexpansion.Pulverizer.removeRecipe(<BiomesOPlenty:gems:1>);
-//mods.thermalexpansion.Pulverizer.removeRecipe(<ore:gemRuby>);
 
 recipes.remove(<IC2:blockMachine2:4>);
 recipes.addShaped(<IC2:blockMachine2:4>, [[<RotaryCraft:rotarycraft_item_compacts:10>, <IC2:itemPartCircuit>, <RotaryCraft:rotarycraft_item_compacts:10>], [<IC2:itemToolbox>, <IC2:blockMachine>, <IC2:itemToolbox>], [<IC2:itemRecipePart>, <IC2:itemRecipePart>, <IC2:itemRecipePart>]]);
