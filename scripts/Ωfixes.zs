@@ -8,12 +8,13 @@ mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Dark Tree:*>, <minecraft:c
 mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Rare Tree:*>, <minecraft:coal:1>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TwilightForest:tile.TFMagicLog:*>, <minecraft:coal:1>);
 
-
+// Need to investigate what "folder" is and why/if the crafting should be disabled.
 recipes.remove(<Mystcraft:folder>);
 
 recipes.addShapeless(<minecraft:coal:1>, [<Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>]);
 recipes.addShapeless(<minecraft:coal>, [<Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>]);
 
+// I'm guessing lets you turn a drained advanced battery (the lead acid kind) into the base meta because IC2 is stupid and cannot handle anything recipe-related in a sensible manner?
 recipes.addShapeless(<IC2:itemAdvBat:0>, [<IC2:itemAdvBat:26>]);
 
 recipes.addShapeless(<Forestry:ingotBronze>*9, [<Forestry:resourceStorage:3>]);
@@ -21,6 +22,7 @@ recipes.addShapeless(<IC2:itemIngot:2>*9, [<IC2:blockMetal:2>]);
 recipes.addShapeless(<ThermalFoundation:material:73>*9, [<ThermalFoundation:Storage:9>]);
 recipes.addShapeless(<TConstruct:materials:13>*9, [<TConstruct:MetalBlock:4>]);
 
+// Investigate to check for recipe conflict
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.addShapeless(<BuildCraft|Core:ironGearItem>, [<Railcraft:part.gear:1>]);
 

@@ -73,6 +73,9 @@ recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotSilver>, <ore:glass>
 recipes.remove(<ExtraUtilities:builderswand>);
 recipes.addShaped(<ExtraUtilities:builderswand>, [[<ReactorCraft:reactorcraft_item_fluorite:6>], [<ore:ingotInvar>]]);
 
+// recipes.remove(<ExtraUtilities:decorativeBlock1:5>);
+// mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
+
 recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<ExtraUtilities:angelRing:1>);
 recipes.remove(<ExtraUtilities:angelRing:2>);
