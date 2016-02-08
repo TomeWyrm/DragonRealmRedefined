@@ -52,6 +52,7 @@ recipes.addShaped(<Botania:craftingHalo>, [[<ore:gemEmerald>, <ore:manaPearl>, <
 //recipes.remove(<extracells:storage.physical:2>);
 //recipes.remove(<extracells:storage.physical:3>);
 
+// Investigate normal tape recipe
 recipes.remove(<StorageDrawers:tape>);
 recipes.addShaped(<StorageDrawers:tape>*3, [[null, <ore:slimeball>, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
