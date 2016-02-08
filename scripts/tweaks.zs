@@ -52,24 +52,6 @@ recipes.addShaped(<Botania:craftingHalo>, [[<ore:gemEmerald>, <ore:manaPearl>, <
 //recipes.remove(<extracells:storage.physical:2>);
 //recipes.remove(<extracells:storage.physical:3>);
 
-//recipes.remove(<RotaryCraft:rotarycraft_item_machine:109>);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-//recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:109>, [[<IC2:reactorCoolantSix:1>, <ThermalExpansion:material:1>, <ore:ingotLead>], [<ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotSilver>], [<RotaryCraft:rotarycraft_item_shaftcraft>, <RotaryCraft:rotarycraft_item_enginecraft:16>, <RotaryCraft:rotarycraft_item_shaftcraft>]]);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-
-recipes.remove(<JABBA:upgradeCore:0>);
-recipes.remove(<JABBA:upgradeCore:4>);
-recipes.remove(<JABBA:upgradeCore:5>);
-recipes.remove(<JABBA:upgradeCore:6>);
-recipes.remove(<JABBA:upgradeCore:8>);
-recipes.remove(<JABBA:upgradeCore:9>);
-
-recipes.remove(<StorageDrawers:upgrade:2>);
-recipes.remove(<StorageDrawers:upgrade:3>);
-recipes.remove(<StorageDrawers:upgrade:4>);
-recipes.remove(<StorageDrawers:upgrade:5>);
-recipes.remove(<StorageDrawers:upgrade:6>);
-
 recipes.remove(<StorageDrawers:tape>);
 recipes.addShaped(<StorageDrawers:tape>*3, [[null, <ore:slimeball>, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
@@ -175,9 +157,6 @@ recipes.addShaped(<Railcraft:part.gear:2>, [[null, <ore:ingotSteel>, null], [<or
 recipes.remove(<TwilightForest:item.emptyMagicMap>);
 recipes.addShaped(<TwilightForest:item.emptyMagicMap>, [[<minecraft:paper>, <TwilightForest:item.fieryBlood>, <minecraft:paper>], [<minecraft:paper>, <TwilightForest:item.tfFeather>, <minecraft:paper>], [<minecraft:paper>, <ChromatiCraft:chromaticraft_item_elemental:0>, <minecraft:paper>]]);
 
-recipes.remove(<ThermalExpansion:Device:2>);
-recipes.addShaped(<ThermalExpansion:Device:2>, [[<ChromatiCraft:chromaticraft_item_crafting:2>, <minecraft:chest>, <Thaumcraft:ItemGolemCore:8>], [<ore:gearDiamond>, <minecraft:piston>, <ore:gearDiamond>], [<RotaryCraft:rotarycraft_item_compacts:10>, <ThermalExpansion:material:1>, <BuildCraft|Silicon:redstoneChipset:2>]]);
-
 recipes.remove(<Mystcraft:writingdesk>);
 recipes.addShaped(<Mystcraft:writingdesk>, [[<minecraft:glass_bottle>, <ForbiddenMagic:Crystalwell>, <minecraft:feather>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
 recipes.remove(<Mystcraft:BlockBookBinder>);
@@ -263,9 +242,9 @@ recipes.remove(<Railcraft:machine.alpha:1>);
 recipes.addShaped(<Railcraft:machine.alpha:1>*4, [[<RotaryCraft:rotarycraft_item_shaftcraft>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_item_shaftcraft>], [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>], [<RotaryCraft:rotarycraft_block_deco>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_block_deco>]]);
 
 //recipes.remove(<JABBA:upgradeCore:7>);
-recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
+//recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
 
-recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
+//recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
 
 recipes.remove(<gendustry:GeneticsProcessor>);
 recipes.remove(<gendustry:EnvProcessor>);
