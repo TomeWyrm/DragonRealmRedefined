@@ -42,8 +42,8 @@ recipes.remove(<ore:dustManyullyn>);
 recipes.remove(<ore:dustAluminumBrass>);
 
 // Forces use of RotaryCraft Friction Heater to make EnderIO conduit bindings
-recipes.remove(<EnderIO:itemMaterial:2>);
-furnace.remove(<EnderIO:itemMaterial:2>);
+recipes.remove(<EnderIO:itemMaterial:1>);
+furnace.remove(<EnderIO:itemMaterial:1>);
 mods.thermalexpansion.Furnace.removeRecipe(<EnderIO:itemMaterial:2>);
 
 // Thermal Dynamics Cryo-Stabilized Fluxduct
