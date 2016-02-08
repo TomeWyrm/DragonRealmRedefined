@@ -52,24 +52,6 @@ recipes.addShaped(<Botania:craftingHalo>, [[<ore:gemEmerald>, <ore:manaPearl>, <
 //recipes.remove(<extracells:storage.physical:2>);
 //recipes.remove(<extracells:storage.physical:3>);
 
-//recipes.remove(<RotaryCraft:rotarycraft_item_machine:109>);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-//recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:109>, [[<IC2:reactorCoolantSix:1>, <ThermalExpansion:material:1>, <ore:ingotLead>], [<ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotSilver>], [<RotaryCraft:rotarycraft_item_shaftcraft>, <RotaryCraft:rotarycraft_item_enginecraft:16>, <RotaryCraft:rotarycraft_item_shaftcraft>]]);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-
-recipes.remove(<JABBA:upgradeCore:0>);
-recipes.remove(<JABBA:upgradeCore:4>);
-recipes.remove(<JABBA:upgradeCore:5>);
-recipes.remove(<JABBA:upgradeCore:6>);
-recipes.remove(<JABBA:upgradeCore:8>);
-recipes.remove(<JABBA:upgradeCore:9>);
-
-recipes.remove(<StorageDrawers:upgrade:2>);
-recipes.remove(<StorageDrawers:upgrade:3>);
-recipes.remove(<StorageDrawers:upgrade:4>);
-recipes.remove(<StorageDrawers:upgrade:5>);
-recipes.remove(<StorageDrawers:upgrade:6>);
-
 recipes.remove(<StorageDrawers:tape>);
 recipes.addShaped(<StorageDrawers:tape>*3, [[null, <ore:slimeball>, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
@@ -263,9 +245,9 @@ recipes.remove(<Railcraft:machine.alpha:1>);
 recipes.addShaped(<Railcraft:machine.alpha:1>*4, [[<RotaryCraft:rotarycraft_item_shaftcraft>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_item_shaftcraft>], [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>], [<RotaryCraft:rotarycraft_block_deco>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_block_deco>]]);
 
 //recipes.remove(<JABBA:upgradeCore:7>);
-recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
+//recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
 
-recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
+//recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
 
 recipes.remove(<gendustry:GeneticsProcessor>);
 recipes.remove(<gendustry:EnvProcessor>);
