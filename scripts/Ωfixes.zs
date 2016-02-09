@@ -2,11 +2,17 @@
 furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree:*>);
 furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:*>);
 furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:*>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:tree>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:willow>);
+furnace.addRecipe(<minecraft:coal:1>, <Natura:bloodwood:*>);
 
 // Make charcoal from trees that don't have recipes for it -- Thermal Expansion furnace
 mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Dark Tree:*>, <minecraft:coal:1>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Rare Tree:*>, <minecraft:coal:1>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TwilightForest:tile.TFMagicLog:*>, <minecraft:coal:1>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:tree>, <minecraft:coal:1>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:willow>, <minecraft:coal:1>);
+mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:bloodwood:*>, <minecraft:coal:1>);
 
 recipes.addShapeless(<minecraft:coal:1>, [<Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>]);
 recipes.addShapeless(<minecraft:coal>, [<Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>]);
