@@ -2,6 +2,8 @@
 // disabled recipes.remove(<ExtraUtilities:golden_lasso>);
 recipes.remove(<EnderIO:itemSoulVessel>);
 
+// Spring Powered Pump
+recipes.remove (<ThermalExpansion:pump>.withTag({Energy: 0}));
 
 // Fans, Fertilizer, Etc
 recipes.remove(<EnderIO:blockFarmStation>);
@@ -10,10 +12,12 @@ recipes.remove(<EnderIO:blockFarmStation>);
 recipes.remove(<ExtraUtilities:spike_base>);
 recipes.remove(<ExtraUtilities:spike_base_diamond>);
 recipes.remove(<ExtraUtilities:spike_base_gold>);
-recipes.remove(<ExtraUtilities:spike_base_wood>);
 
 // Spawner Controller
 recipes.remove(<EnderIO:blockPoweredSpawner>);
+// Add recipe for Cursed Earth using Energized Transformation Core
+// recipes.addShaped (extrautils:cursedEarth, [[<minecraft:grass>, <minecraft:grass>, <minecraft:grass>], [<minecraft:grass>, <ChromatiCraft:chromaticraft_item_crafting:24>, <minecraft:grass>], [<minecraft:grass>, <minecraft:grass>, <minecraft:grass>]]);
+
 
 // Orange Pendant
 recipes.remove(<Botania:superLavaPendant>);
