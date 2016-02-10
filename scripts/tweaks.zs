@@ -34,6 +34,8 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsquartz>*8, 
 
 //furnace.remove(<minecraft:nether_brick>);
 
+mods.ic2.Macerator.addRecipe(<IC2:itemBiochaff>, <minecraft:apple>*16);
+
 recipes.remove(<ThermalExpansion:Frame:10>);
 recipes.addShaped(<ThermalExpansion:Frame:10>, [[<ore:ingotEnderium>, <ThermalExpansion:Glass>, <ore:ingotEnderium>], [<ThermalExpansion:Glass>, <minecraft:emerald>, <ThermalExpansion:Glass>], [<ore:ingotEnderium>, <ThermalExpansion:Glass>, <ore:ingotEnderium>]]);
 
@@ -61,14 +63,14 @@ recipes.addShaped(<StorageDrawers:controller>, [[<ore:stone>, <ore:stone>, <ore:
 recipes.remove(<StorageDrawers:controllerSlave>);
 recipes.addShaped(<StorageDrawers:controllerSlave>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <StorageDrawers:halfDrawers2>, <minecraft:comparator>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
 
-recipes.remove(<IronChest:BlockIronChest>);
-recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <minecraft:chest>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
-recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>], [<ore:glass>, <IronChest:BlockIronChest:3>, <ore:glass>], [<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>]]);
-recipes.remove(<IronChest:woodIronUpgrade>);
-recipes.addShaped(<IronChest:woodIronUpgrade>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
-recipes.remove(<IronChest:BlockIronChest:4>);
-recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>], [<ore:ingotSilver>, <IronChest:BlockIronChest:3>, <ore:ingotSilver>], [<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>]]);
-recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>], [<ore:glass>, <IronChest:BlockIronChest>, <ore:glass>], [<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>]]);
+//recipes.remove(<IronChest:BlockIronChest>);
+//recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <minecraft:chest>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
+//recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>], [<ore:glass>, <IronChest:BlockIronChest:3>, <ore:glass>], [<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>]]);
+//recipes.remove(<IronChest:woodIronUpgrade>);
+//recipes.addShaped(<IronChest:woodIronUpgrade>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
+//recipes.remove(<IronChest:BlockIronChest:4>);
+//recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>], [<ore:ingotSilver>, <IronChest:BlockIronChest:3>, <ore:ingotSilver>], [<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>]]);
+//recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>], [<ore:glass>, <IronChest:BlockIronChest>, <ore:glass>], [<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>]]);
 
 //ExU
 recipes.remove(<ExtraUtilities:builderswand>);
@@ -144,8 +146,12 @@ recipes.remove(<ThermalFoundation:material:12>);
 recipes.remove(<ThermalFoundation:material:13>);
 
 //recipes.remove(<Railcraft:machine.beta:7>);
-recipes.remove(<Railcraft:machine.beta:8>);
-recipes.remove(<Railcraft:machine.beta:9>);
+//recipes.remove(<Railcraft:machine.beta:8>);
+//recipes.remove(<Railcraft:machine.beta:9>);
+
+//recipes.addShaped(<Railcraft:machine.beta:8>, [[<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>], [null, <minecraft:glass>, null], [<BuildCraft|Core:ironGearItem>, <minecraft:piston>, <BuildCraft|Core:ironGearItem>]]);
+//recipes.addShaped(<Railcraft:machine.beta:9>, [[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>, <Railcraft:part.plate>:1], [null, <minecraft:glass>, null], [<RotaryCraft:rotarycraft_item_shaftcraft:4>, <minecraft:piston>, <RotaryCraft:rotarycraft_item_shaftcraft:4>]]);
+//recipes.addShaped(<Railcraft:machine.beta:9>, [[<ore:ingotGold>], [<minecraft:redstone>], [<minecraft:paper>]]);
 
 //recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, <minecraft:glass>, null], []]);
 //recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, <minecraft:glass>, null], []]);
