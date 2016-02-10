@@ -1,23 +1,24 @@
-// Make charcoal from trees that don't have recipes for it -- vanilla furnace
 furnace.addRecipe(<minecraft:coal:1>, <Natura:Dark Tree:*>);
 furnace.addRecipe(<minecraft:coal:1>, <Natura:Rare Tree:*>);
 furnace.addRecipe(<minecraft:coal:1>, <TwilightForest:tile.TFMagicLog:*>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:tree>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:willow>);
-furnace.addRecipe(<minecraft:coal:1>, <Natura:bloodwood:*>);
 
-// Make charcoal from trees that don't have recipes for it -- Thermal Expansion furnace
 mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Dark Tree:*>, <minecraft:coal:1>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:Rare Tree:*>, <minecraft:coal:1>);
 mods.thermalexpansion.Furnace.addRecipe(1600, <TwilightForest:tile.TFMagicLog:*>, <minecraft:coal:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:tree>, <minecraft:coal:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:willow>, <minecraft:coal:1>);
-mods.thermalexpansion.Furnace.addRecipe(1600, <Natura:bloodwood:*>, <minecraft:coal:1>);
+
+
+recipes.remove(<Mystcraft:folder>);
 
 recipes.addShapeless(<minecraft:coal:1>, [<Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>, <Ztones:minicharcoal>]);
 recipes.addShapeless(<minecraft:coal>, [<Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>, <Ztones:minicoal>]);
 
-// Investigate to check for recipe conflict
+recipes.addShapeless(<IC2:itemAdvBat:0>, [<IC2:itemAdvBat:26>]);
+
+recipes.addShapeless(<Forestry:ingotBronze>*9, [<Forestry:resourceStorage:3>]);
+recipes.addShapeless(<IC2:itemIngot:2>*9, [<IC2:blockMetal:2>]);
+recipes.addShapeless(<ThermalFoundation:material:73>*9, [<ThermalFoundation:Storage:9>]);
+recipes.addShapeless(<TConstruct:materials:13>*9, [<TConstruct:MetalBlock:4>]);
+
 recipes.remove(<Railcraft:part.gear:1>);
 recipes.addShapeless(<BuildCraft|Core:ironGearItem>, [<Railcraft:part.gear:1>]);
 
