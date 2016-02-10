@@ -6,6 +6,8 @@ log.add(<IC2:blockRubWood>);
 recipes.addShapeless(<IC2:itemAdvBat:0>, [<IC2:itemAdvBat:26>]);
 
 recipes.addShaped(<IC2:itemCellEmpty>*16, [[null, <ore:ingotTin>, null], [<ore:ingotTin>, <RotaryCraft:rotarycraft_item_machine:17>, <ore:ingotTin>], [null, <ore:ingotTin>, null]]);
+recipes.remove(<IC2:itemFluidCell>);
+recipes.addShaped(<IC2:itemFluidCell>*8, [[null, <IC2:itemCasing:1>, null], [<IC2:itemCasing:1>, <minecraft:glass_pane>, <IC2:itemCasing:1>], [null, <IC2:itemCasing:1>, null]]);
 
 recipes.remove(<IC2:itemToolForgeHammer>);
 recipes.remove(<IC2:itemToolCutter>);
@@ -25,6 +27,7 @@ recipes.remove(<IC2:itemDust2:2>); //force RC extractor
 recipes.addShaped(<IC2:itemBatCrystal:26>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>], [<minecraft:redstone>, <RotaryCraft:rotarycraft_item_modingots:24>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
 
 recipes.remove(<IC2:itemToolMiningLaser:26>);
+recipes.remove(<IC2:itemToolMiningLaser>);
 recipes.addShaped(<IC2:itemToolMiningLaser:26>, [[<minecraft:redstone>, <minecraft:redstone>, <IC2:itemBatCrystal:1>], [<IC2:itemPartAlloy>, <IC2:itemPartAlloy>, <IC2:itemPartCircuitAdv>], [null, <IC2:itemPartAlloy>, <IC2:itemPartAlloy>]]);
 
 //Nuclear
@@ -39,7 +42,7 @@ recipes.remove(<AdvancedSolarPanel:asp_crafting_items:2>);
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:2>, [[<ReactorCraft:reactorcraft_item_raw:1>, <minecraft:glowstone_dust>, <ReactorCraft:reactorcraft_item_raw:1>], [<minecraft:glowstone_dust>, <IC2:itemMOX>, <minecraft:glowstone_dust>], [<ReactorCraft:reactorcraft_item_raw:1>, <minecraft:glowstone_dust>, <ReactorCraft:reactorcraft_item_raw:1>]]);
 
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:13>);
-recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [[<AdvancedSolarPanel:asp_crafting_items:4>, <thaumicenergistics:material:1>, <AdvancedSolarPanel:asp_crafting_items:4>], [<AWWayofTime:bloodMagicBaseItems:22>, <appliedenergistics2:item.ItemMultiMaterial:47>, <Botania:corporeaSpark:1>], [<AdvancedSolarPanel:asp_crafting_items:4>, <ChromatiCraft:chromaticraft_item_crafting:0>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:13>, [[<AdvancedSolarPanel:asp_crafting_items:4>, <thaumicenergistics:material:1>, <AdvancedSolarPanel:asp_crafting_items:4>], [<AWWayofTime:bloodMagicBaseItems:22>, <appliedenergistics2:item.ItemMultiMaterial:47>, <Botania:corporeaSpark:1>], [<AdvancedSolarPanel:asp_crafting_items:4>, <ChromatiCraft:chromaticraft_item_crafting:23>, <AdvancedSolarPanel:asp_crafting_items:4>]]);
 
 recipes.remove(<AdvancedSolarPanel:BlockAdvSolarPanel>);
 recipes.addShaped(<AdvancedSolarPanel:BlockAdvSolarPanel>, [[<IC2:blockAlloyGlass>, <RotaryCraft:rotarycraft_block_blastglass>, <IC2:blockAlloyGlass>], [<IC2:itemPartAlloy>, <IC2:blockGenerator:3>, <IC2:itemPartAlloy>], [<IC2:itemPartCircuitAdv>, <IC2:itemPartCarbonPlate>, <IC2:itemPartCircuitAdv>]]);
