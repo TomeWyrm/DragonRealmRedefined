@@ -1,22 +1,22 @@
-//ExU generators
-recipes.remove(<ExtraUtilities:generator:2>); //Lava
-recipes.addShaped(<ExtraUtilities:generator:2>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <minecraft:gold_block>, <ore:ingotInvar>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]); //Lava
+// ExU generators
+// recipes.remove(<ExtraUtilities:generator:2>); //Lava
+// recipes.addShaped(<ExtraUtilities:generator:2>, [[<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], [<ore:ingotInvar>, <minecraft:gold_block>, <ore:ingotInvar>], [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]]); //Lava
 
-recipes.remove(<ExtraUtilities:generator:3>);
-recipes.remove(<ExtraUtilities:generator:4>);
-recipes.remove(<ExtraUtilities:generator:5>);
-recipes.remove(<ExtraUtilities:generator:6>);
-recipes.remove(<ExtraUtilities:generator:7>);
-recipes.remove(<ExtraUtilities:generator:8>);
-recipes.remove(<ExtraUtilities:generator:9>);
-recipes.remove(<ExtraUtilities:generator:10>);
+// recipes.remove(<ExtraUtilities:generator:3>);
+// recipes.remove(<ExtraUtilities:generator:4>);
+// recipes.remove(<ExtraUtilities:generator:5>);
+// recipes.remove(<ExtraUtilities:generator:6>);
+// recipes.remove(<ExtraUtilities:generator:7>);
+// recipes.remove(<ExtraUtilities:generator:8>);
+// recipes.remove(<ExtraUtilities:generator:9>);
+// recipes.remove(<ExtraUtilities:generator:10>);
 recipes.remove(<ExtraUtilities:generator:11>);
 
-recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
-recipes.remove(<ExtraUtilities:nodeUpgrade:6>);
+// recipes.remove(<ExtraUtilities:nodeUpgrade:5>);
+// recipes.remove(<ExtraUtilities:nodeUpgrade:6>);
 
 //Botania
-recipes.remove(<Botania:rfGenerator>);
+// recipes.remove(<Botania:rfGenerator>);
 
 //BC pump HSLA gating
 recipes.remove(<BuildCraft|Factory:pumpBlock>);
@@ -26,56 +26,56 @@ recipes.addShaped(<BuildCraft|Factory:pumpBlock>, [[<BuildCraft|Factory:tankBloc
 //recipes.remove(<ExtraUtilities:extractor_base:12>);
 //recipes.remove(<ExtraUtilities:extractor_base:13>);
 
-recipes.remove(<EnderIO:blockZombieGenerator>);
-recipes.remove(<EnderIO:blockCombustionGenerator>);
+// recipes.remove(<EnderIO:blockZombieGenerator>);
+// recipes.remove(<EnderIO:blockCombustionGenerator>);
 
 //recipes.remove(<ThermalExpansion:Machine:3>, [[null, <minecraft:bucket>, null], [<ore:ingotInvar>, <ore:thermalexpansion:machineFrame>, <ore:ingotInvar>], [<ore:gearInvar>, <ThermalExpansion:material:1>, <ore:gearInvar>]]);
-recipes.addShaped(<ThermalExpansion:Machine:3>.withTag({Augments: [{id: 5498 as short, Damage: 16 as short, Count: 1 as byte, Slot: 0}, {id: 5498 as short, Damage: 32 as short, Count: 1 as byte, Slot: 1}, {id: 5498 as short, Damage: 0 as short, Count: 1 as byte, Slot: 2}]}), [[null, <minecraft:bucket>, null], [<ore:ingotNickel>, <ThermalExpansion:Frame>, <ore:ingotNickel>], [<BuildCraft|Core:ironGearItem>, <ThermalExpansion:material:1>, <BuildCraft|Core:ironGearItem>]]);
+// recipes.addShaped(<ThermalExpansion:Machine:3>.withTag({Augments: [{id: 5498 as short, Damage: 16 as short, Count: 1 as byte, Slot: 0}, {id: 5498 as short, Damage: 32 as short, Count: 1 as byte, Slot: 1}, {id: 5498 as short, Damage: 0 as short, Count: 1 as byte, Slot: 2}]}), [[null, <minecraft:bucket>, null], [<ore:ingotNickel>, <ThermalExpansion:Frame>, <ore:ingotNickel>], [<BuildCraft|Core:ironGearItem>, <ThermalExpansion:material:1>, <BuildCraft|Core:ironGearItem>]]);
 
-recipes.remove(<Forestry:engine:0>);
-recipes.remove(<Forestry:engine:1>);
+// recipes.remove(<Forestry:engine:0>);
+// recipes.remove(<Forestry:engine:1>);
 //recipes.remove(<Forestry:engine:2>);
-recipes.remove(<Forestry:engine:4>);
+// recipes.remove(<Forestry:engine:4>);
 //recipes.addShaped(<Forestry:engine:2>, [[<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>], [], []]);
 
 //Bronze
-recipes.remove(<ore:ingotBronze>);
-recipes.remove(<ore:dustBronze>);
+// recipes.remove(<ore:ingotBronze>);
+// recipes.remove(<ore:dustBronze>);
 
 //TiC Smeltery
-recipes.remove(<TConstruct:LavaTank>);
-recipes.addShaped(<TConstruct:LavaTank>, [[<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>]]);
-recipes.remove(<TConstruct:LavaTank:1>);
-recipes.addShaped(<TConstruct:LavaTank:1>, [[<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<ore:glass>, <ore:ingotInvar>, <ore:glass>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>]]);
-recipes.remove(<TConstruct:LavaTank:2>);
-recipes.addShaped(<TConstruct:LavaTank:2>, [[<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<ore:ingotInvar>, <ore:glass>, <ore:ingotInvar>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>]]);
-recipes.remove(<TConstruct:LavaTankNether>);
-recipes.addShaped(<TConstruct:LavaTankNether>, [[<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>]]);
-recipes.remove(<TConstruct:LavaTankNether:1>);
-recipes.addShaped(<TConstruct:LavaTankNether:1>, [[<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<ore:glass>, <ore:ingotInvar>, <ore:glass>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>]]);
-recipes.remove(<TConstruct:LavaTankNether:2>);
-recipes.addShaped(<TConstruct:LavaTankNether:2>, [[<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<ore:ingotInvar>, <ore:glass>, <ore:ingotInvar>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>]]);
+// recipes.remove(<TConstruct:LavaTank>);
+// recipes.addShaped(<TConstruct:LavaTank>, [[<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>]]);
+// recipes.remove(<TConstruct:LavaTank:1>);
+// recipes.addShaped(<TConstruct:LavaTank:1>, [[<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<ore:glass>, <ore:ingotInvar>, <ore:glass>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>]]);
+// recipes.remove(<TConstruct:LavaTank:2>);
+// recipes.addShaped(<TConstruct:LavaTank:2>, [[<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>], [<ore:ingotInvar>, <ore:glass>, <ore:ingotInvar>], [<TConstruct:materials:2>, <ore:glass>, <TConstruct:materials:2>]]);
+// recipes.remove(<TConstruct:LavaTankNether>);
+// recipes.addShaped(<TConstruct:LavaTankNether>, [[<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>]]);
+// recipes.remove(<TConstruct:LavaTankNether:1>);
+// recipes.addShaped(<TConstruct:LavaTankNether:1>, [[<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<ore:glass>, <ore:ingotInvar>, <ore:glass>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>]]);
+// recipes.remove(<TConstruct:LavaTankNether:2>);
+// recipes.addShaped(<TConstruct:LavaTankNether:2>, [[<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>], [<ore:ingotInvar>, <ore:glass>, <ore:ingotInvar>], [<TConstruct:materials:37>, <ore:glass>, <TConstruct:materials:37>]]);
 
-recipes.remove(<TConstruct:Smeltery>);
-recipes.addShaped(<TConstruct:Smeltery>, [[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
-recipes.remove(<TConstruct:SmelteryNether>);
-recipes.addShaped(<TConstruct:SmelteryNether>, [[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
+// recipes.remove(<TConstruct:Smeltery>);
+// recipes.addShaped(<TConstruct:Smeltery>, [[<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <ore:ingotInvar>, <TConstruct:materials:2>], [<TConstruct:materials:2>, <TConstruct:materials:2>, <TConstruct:materials:2>]]);
+// recipes.remove(<TConstruct:SmelteryNether>);
+// recipes.addShaped(<TConstruct:SmelteryNether>, [[<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <ore:ingotInvar>, <TConstruct:materials:37>], [<TConstruct:materials:37>, <TConstruct:materials:37>, <TConstruct:materials:37>]]);
 
-recipes.remove(<ore:dustInvar>);
-recipes.remove(<ore:dustElectrum>);
-recipes.remove(<ore:dustManyullyn>);
-recipes.remove(<ore:dustAluminumBrass>);
+// recipes.remove(<ore:dustInvar>);
+// recipes.remove(<ore:dustElectrum>);
+// recipes.remove(<ore:dustManyullyn>);
+// recipes.remove(<ore:dustAluminumBrass>);
 
 //Pipe/Conduit Gating
-recipes.remove(<EnderIO:itemMaterial:2>);
-recipes.addShapeless(<EnderIO:itemMaterial:2>*8, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:sand>, <minecraft:sand>, <minecraft:clay_ball>, <IC2:itemRubber>, <IC2:itemRubber>]);
+// recipes.remove(<EnderIO:itemMaterial:2>);
+// recipes.addShapeless(<EnderIO:itemMaterial:2>*8, [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:sand>, <minecraft:sand>, <minecraft:clay_ball>, <IC2:itemRubber>, <IC2:itemRubber>]);
 
 //recipes.remove(<IC2:itemRubber>);
 //furnace.remove(<IC2:itemRubber>);
 //mods.thermalexpansion.Furnace.removeRecipe(<IC2:itemRubber>);
 
-recipes.remove(<EnderIO:itemMaterial:1>);
-furnace.remove(<EnderIO:itemMaterial:1>);
+// recipes.remove(<EnderIO:itemMaterial:1>);
+// furnace.remove(<EnderIO:itemMaterial:1>);
 //mods.thermalexpansion.Furnace.removeRecipe(<EnderIO:itemMaterial:1>);
 
 recipes.remove(<ThermalDynamics:ThermalDynamics_0:7>);
@@ -132,10 +132,10 @@ recipes.addShaped(<ThermalExpansion:augment:82>, [[null, tung, null], [<ore:ingo
 //recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:45>, [[<minecraft:stonebrick>, <Railcraft:ingot>, <minecraft:stonebrick>], [<ore:ingotInvar>, <minecraft:redstone>, <ore:ingotInvar>], [<minecraft:stonebrick>, <Railcraft:ingot>, <minecraft:stonebrick>]]);
 //The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
 
-recipes.remove(<EnderIO:blockCapBank:1>);
-recipes.remove(<EnderIO:blockCapBank:2>);
-recipes.remove(<EnderIO:blockCapBank:3>);
+// recipes.remove(<EnderIO:blockCapBank:1>);
+// recipes.remove(<EnderIO:blockCapBank:2>);
+// recipes.remove(<EnderIO:blockCapBank:3>);
 
-recipes.addShaped(<EnderIO:blockCapBank:1>, [[<ore:ingotIron>, <EnderIO:itemBasicCapacitor>, <ore:ingotIron>], [<EnderIO:itemBasicCapacitor>, <IC2:itemBatCrystal:26>, <EnderIO:itemBasicCapacitor>], [<ore:ingotIron>, <EnderIO:itemBasicCapacitor>, <ore:ingotIron>]]);
-recipes.addShaped(<EnderIO:blockCapBank:2>, [[<ore:ingotEnergeticAlloy>, <EnderIO:itemBasicCapacitor:1>, <ore:ingotEnergeticAlloy>], [<EnderIO:itemBasicCapacitor:1>, <EnderIO:blockCapBank:1>, <EnderIO:itemBasicCapacitor:1>], [<ore:ingotEnergeticAlloy>, <EnderIO:itemBasicCapacitor:1>, <ore:ingotEnergeticAlloy>]]);
-recipes.addShaped(<EnderIO:blockCapBank:3>, [[<ore:ingotPhasedGold>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotPhasedGold>], [<EnderIO:itemBasicCapacitor:2>, <EnderIO:blockCapBank:2>, <EnderIO:itemBasicCapacitor:2>], [<ore:ingotPhasedGold>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotPhasedGold>]]);
+// recipes.addShaped(<EnderIO:blockCapBank:1>, [[<ore:ingotIron>, <EnderIO:itemBasicCapacitor>, <ore:ingotIron>], [<EnderIO:itemBasicCapacitor>, <IC2:itemBatCrystal:26>, <EnderIO:itemBasicCapacitor>], [<ore:ingotIron>, <EnderIO:itemBasicCapacitor>, <ore:ingotIron>]]);
+// recipes.addShaped(<EnderIO:blockCapBank:2>, [[<ore:ingotEnergeticAlloy>, <EnderIO:itemBasicCapacitor:1>, <ore:ingotEnergeticAlloy>], [<EnderIO:itemBasicCapacitor:1>, <EnderIO:blockCapBank:1>, <EnderIO:itemBasicCapacitor:1>], [<ore:ingotEnergeticAlloy>, <EnderIO:itemBasicCapacitor:1>, <ore:ingotEnergeticAlloy>]]);
+// recipes.addShaped(<EnderIO:blockCapBank:3>, [[<ore:ingotPhasedGold>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotPhasedGold>], [<EnderIO:itemBasicCapacitor:2>, <EnderIO:blockCapBank:2>, <EnderIO:itemBasicCapacitor:2>], [<ore:ingotPhasedGold>, <EnderIO:itemBasicCapacitor:2>, <ore:ingotPhasedGold>]]);
