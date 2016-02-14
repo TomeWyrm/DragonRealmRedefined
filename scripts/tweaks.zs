@@ -12,7 +12,7 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:140>*6, [[<minecraft:g
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:3>, [<ElectriCraft:electricraft_item_crafting:2>]);
 
 recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
-recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:tile.BlockEnergyCell>, <RotaryCraft:rotarycraft_item_compacts:5>], [<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:tile.BlockEnergyCell>, <ChromatiCraft:chromaticraft_item_crafting>], [<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>]]);
 
 recipes.remove(<ExtraUtilities:golden_bag>);
 recipes.addShaped(<ExtraUtilities:golden_bag>, [[<minecraft:wool>, <ore:manaDiamond>, <minecraft:wool>], [<ore:ingotThaumium>, <minecraft:chest>, <ore:ingotThaumium>], [<minecraft:wool>, <minecraft:gold_block>, <minecraft:wool>]]);
@@ -34,8 +34,6 @@ recipes.addShaped(<BuildCraft|Transport:item.buildcraftPipe.pipeitemsquartz>*8, 
 
 //furnace.remove(<minecraft:nether_brick>);
 
-mods.ic2.Macerator.addRecipe(<IC2:itemBiochaff>, <minecraft:apple>*16);
-
 recipes.remove(<ThermalExpansion:Frame:10>);
 recipes.addShaped(<ThermalExpansion:Frame:10>, [[<ore:ingotEnderium>, <ThermalExpansion:Glass>, <ore:ingotEnderium>], [<ThermalExpansion:Glass>, <minecraft:emerald>, <ThermalExpansion:Glass>], [<ore:ingotEnderium>, <ThermalExpansion:Glass>, <ore:ingotEnderium>]]);
 
@@ -54,44 +52,30 @@ recipes.addShaped(<Botania:craftingHalo>, [[<ore:gemEmerald>, <ore:manaPearl>, <
 //recipes.remove(<extracells:storage.physical:2>);
 //recipes.remove(<extracells:storage.physical:3>);
 
-//recipes.remove(<RotaryCraft:rotarycraft_item_machine:109>);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-//recipes.addShaped(<RotaryCraft:rotarycraft_item_machine:109>, [[<IC2:reactorCoolantSix:1>, <ThermalExpansion:material:1>, <ore:ingotLead>], [<ore:ingotSilver>, <ore:ingotCopper>, <ore:ingotSilver>], [<RotaryCraft:rotarycraft_item_shaftcraft>, <RotaryCraft:rotarycraft_item_enginecraft:16>, <RotaryCraft:rotarycraft_item_shaftcraft>]]);
-//The above line was commented out because the mod registering the item for which a recipe is being added or removed (RotaryCraft) has requested not to allow this. See your logs for more information, including on who to go to if you have further questions.
-
-//recipes.remove(<JABBA:upgradeCore:0>);
-//recipes.remove(<JABBA:upgradeCore:4>);
-//recipes.remove(<JABBA:upgradeCore:5>);
-//recipes.remove(<JABBA:upgradeCore:6>);
-//recipes.remove(<JABBA:upgradeCore:8>);
-//recipes.remove(<JABBA:upgradeCore:9>);
-
-//recipes.remove(<StorageDrawers:upgrade:2>);
-//recipes.remove(<StorageDrawers:upgrade:3>);
-//recipes.remove(<StorageDrawers:upgrade:4>);
-//recipes.remove(<StorageDrawers:upgrade:5>);
-//recipes.remove(<StorageDrawers:upgrade:6>);
-
+// Investigate normal tape recipe
 recipes.remove(<StorageDrawers:tape>);
 recipes.addShaped(<StorageDrawers:tape>*3, [[null, <ore:slimeball>, null], [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
 
 recipes.remove(<StorageDrawers:controller>);
-recipes.addShaped(<StorageDrawers:controller>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], [<ore:stone>, <ore:ingotGold>, <ore:stone>]]);
+recipes.addShaped(<StorageDrawers:controller>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <StorageDrawers:halfDrawers2>, <minecraft:comparator>], [<ore:stone>, <ore:ingotGold>, <ore:stone>]]);
 recipes.remove(<StorageDrawers:controllerSlave>);
-recipes.addShaped(<StorageDrawers:controllerSlave>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <ore:drawerBasic>, <minecraft:comparator>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
+recipes.addShaped(<StorageDrawers:controllerSlave>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<minecraft:comparator>, <StorageDrawers:halfDrawers2>, <minecraft:comparator>], [<ore:stone>, <minecraft:redstone>, <ore:stone>]]);
 
-//recipes.remove(<IronChest:BlockIronChest>);
-//recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <minecraft:chest>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
-//recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>], [<ore:glass>, <IronChest:BlockIronChest:3>, <ore:glass>], [<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>]]);
-//recipes.remove(<IronChest:woodIronUpgrade>);
-//recipes.addShaped(<IronChest:woodIronUpgrade>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
-//recipes.remove(<IronChest:BlockIronChest:4>);
-//recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>], [<ore:ingotSilver>, <IronChest:BlockIronChest:3>, <ore:ingotSilver>], [<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>]]);
-//recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>], [<ore:glass>, <IronChest:BlockIronChest>, <ore:glass>], [<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>]]);
+recipes.remove(<IronChest:BlockIronChest>);
+recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <minecraft:chest>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
+recipes.addShaped(<IronChest:BlockIronChest>, [[<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>], [<ore:glass>, <IronChest:BlockIronChest:3>, <ore:glass>], [<ore:ingotHSLA>, <ore:glass>, <ore:ingotHSLA>]]);
+recipes.remove(<IronChest:woodIronUpgrade>);
+recipes.addShaped(<IronChest:woodIronUpgrade>, [[<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>], [<ore:ingotIron>, <ore:plankWood>, <ore:ingotIron>], [<ore:ingotHSLA>, <ore:ingotIron>, <ore:ingotHSLA>]]);
+recipes.remove(<IronChest:BlockIronChest:4>);
+recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>], [<ore:ingotSilver>, <IronChest:BlockIronChest:3>, <ore:ingotSilver>], [<ore:ingotHSLA>, <ore:ingotSilver>, <ore:ingotHSLA>]]);
+recipes.addShaped(<IronChest:BlockIronChest:4>, [[<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>], [<ore:glass>, <IronChest:BlockIronChest>, <ore:glass>], [<ore:ingotSilver>, <ore:glass>, <ore:ingotSilver>]]);
 
 //ExU
 recipes.remove(<ExtraUtilities:builderswand>);
 recipes.addShaped(<ExtraUtilities:builderswand>, [[<ReactorCraft:reactorcraft_item_fluorite:6>], [<ore:ingotInvar>]]);
+
+// recipes.remove(<ExtraUtilities:decorativeBlock1:5>);
+// mods.tconstruct.Casting.removeBasinRecipe(<ExtraUtilities:decorativeBlock1:5>);
 
 recipes.remove(<ExtraUtilities:angelRing>);
 recipes.remove(<ExtraUtilities:angelRing:1>);
@@ -160,12 +144,8 @@ recipes.remove(<ThermalFoundation:material:12>);
 recipes.remove(<ThermalFoundation:material:13>);
 
 //recipes.remove(<Railcraft:machine.beta:7>);
-//recipes.remove(<Railcraft:machine.beta:8>);
-//recipes.remove(<Railcraft:machine.beta:9>);
-
-//recipes.addShaped(<Railcraft:machine.beta:8>, [[<Railcraft:part.plate>, <Railcraft:part.plate>, <Railcraft:part.plate>], [null, <minecraft:glass>, null], [<BuildCraft|Core:ironGearItem>, <minecraft:piston>, <BuildCraft|Core:ironGearItem>]]);
-//recipes.addShaped(<Railcraft:machine.beta:9>, [[<Railcraft:part.plate:1>, <Railcraft:part.plate:1>, <Railcraft:part.plate>:1], [null, <minecraft:glass>, null], [<RotaryCraft:rotarycraft_item_shaftcraft:4>, <minecraft:piston>, <RotaryCraft:rotarycraft_item_shaftcraft:4>]]);
-//recipes.addShaped(<Railcraft:machine.beta:9>, [[<ore:ingotGold>], [<minecraft:redstone>], [<minecraft:paper>]]);
+recipes.remove(<Railcraft:machine.beta:8>);
+recipes.remove(<Railcraft:machine.beta:9>);
 
 //recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, <minecraft:glass>, null], []]);
 //recipes.addShaped(<Railcraft:machine.beta:7>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [null, <minecraft:glass>, null], []]);
@@ -179,10 +159,7 @@ recipes.addShaped(<Railcraft:part.gear>, [[null, <ore:nuggetGold>, null], [<ore:
 recipes.addShaped(<Railcraft:part.gear:2>, [[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, <BuildCraft|Core:stoneGearItem>, <ore:ingotSteel>], [null, <ore:ingotSteel>, null]]);
 
 recipes.remove(<TwilightForest:item.emptyMagicMap>);
-recipes.addShaped(<TwilightForest:item.emptyMagicMap>, [[<minecraft:paper>, <TwilightForest:item.tfFeather>, <minecraft:paper>], [<minecraft:paper>, <Thaumcraft:ItemResource:4>, <minecraft:paper>], [<minecraft:paper>, <ChromatiCraft:chromaticraft_item_elemental:0>, <minecraft:paper>]]);
-
-recipes.remove(<ThermalExpansion:Device:2>);
-recipes.addShaped(<ThermalExpansion:Device:2>, [[<ChromatiCraft:chromaticraft_item_crafting:2>, <minecraft:chest>, <Thaumcraft:ItemGolemCore:8>], [<ore:gearDiamond>, <minecraft:piston>, <ore:gearDiamond>], [<RotaryCraft:rotarycraft_item_compacts:10>, <ThermalExpansion:material:1>, <BuildCraft|Silicon:redstoneChipset:2>]]);
+recipes.addShaped(<TwilightForest:item.emptyMagicMap>, [[<minecraft:paper>, <TwilightForest:item.fieryBlood>, <minecraft:paper>], [<minecraft:paper>, <TwilightForest:item.tfFeather>, <minecraft:paper>], [<minecraft:paper>, <ChromatiCraft:chromaticraft_item_elemental:0>, <minecraft:paper>]]);
 
 recipes.remove(<Mystcraft:writingdesk>);
 recipes.addShaped(<Mystcraft:writingdesk>, [[<minecraft:glass_bottle>, <ForbiddenMagic:Crystalwell>, <minecraft:feather>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:plankWood>, null, <ore:plankWood>]]);
@@ -269,16 +246,9 @@ recipes.remove(<Railcraft:machine.alpha:1>);
 recipes.addShaped(<Railcraft:machine.alpha:1>*4, [[<RotaryCraft:rotarycraft_item_shaftcraft>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_item_shaftcraft>], [<Railcraft:part.plate:1>, null, <Railcraft:part.plate:1>], [<RotaryCraft:rotarycraft_block_deco>, <Railcraft:part.plate:1>, <RotaryCraft:rotarycraft_block_deco>]]);
 
 //recipes.remove(<JABBA:upgradeCore:7>);
-recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
+//recipes.addShaped(<JABBA:upgradeCore:7>, [[<minecraft:redstone>, <ore:plankWood>, <minecraft:redstone>], [<ore:stone>, <minecraft:redstone>, <ore:stone>], [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>]]);
 
-recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
+//recipes.addShaped(<JABBA:upgradeStructural:1>, [[<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>], [<ore:ingotTin>, null, <ore:ingotTin>], [<minecraft:fence>, <ore:ingotTin>, <minecraft:fence>]]);
 
 recipes.remove(<gendustry:GeneticsProcessor>);
 recipes.remove(<gendustry:EnvProcessor>);
-
-recipes.remove(<EnderIO:itemMEConduit>);
-recipes.addShaped(<EnderIO:itemMEConduit>*24, [[<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>], [<ore:crystalFluix>, <ore:crystalFluix>, <ore:crystalFluix>], [<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>]]);
-recipes.addShaped(<EnderIO:itemMEConduit>*24, [[<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>], [<ore:crystalPureFluix>, <ore:crystalPureFluix>, <ore:crystalPureFluix>], [<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>]]);
-
-recipes.remove(<EnderIO:itemConduitFacade>);
-recipes.addShaped(<EnderIO:itemConduitFacade>*4, [[<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>], [<EnderIO:itemMaterial:1>, null, <EnderIO:itemMaterial:1>], [<EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>, <EnderIO:itemMaterial:1>]]);
